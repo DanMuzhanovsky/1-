@@ -3,7 +3,7 @@ html,body{
 	padding: 0;
 	height: 100%;
 }
-header{
+.header{
 	background-color:rgb(90, 103, 105);
 }
 body{
@@ -31,10 +31,10 @@ button{
 	background-color: cadetblue;
 	border-radius: 10px;
 }
-main{
+.main{
 	padding-top: 0%;
 	width: 90%;
-	background-color: aquamarine;
+	background-color: rgb(8, 173, 118);
 	margin: 0 auto;
 	box-sizing: border-box;
 }
@@ -47,11 +47,9 @@ main{
 	float: right;
 }
 .main__img--options{
-	height: auto;
-	width: auto;
 	border: solid 2px;
 }
-footer{
+.footer{
 	background-color:blue;
 	width: 100% auto;
 }
